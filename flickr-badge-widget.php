@@ -133,8 +133,8 @@ function flickr_badge_widget_init() {
 }
 
 function output_fbw($fbw_flickr_id,$fbw_tags,$fbw_rows,$fbw_cols,$fbw_size,$fbw_transition,$magisterLudi) {
-  echo '<script type="text/javascript" src="' . get_settings('siteurl') . '/wp-content/plugins/flickr-badge-widget/prototype.js"></script>';
-  echo '<script type="text/javascript" src="' . get_settings('siteurl') . '/wp-content/plugins/flickr-badge-widget/flickr-badge.js"></script>';
+  echo '<script type="text/javascript" src="' . get_settings('siteurl') . '/wp-content/plugins/flickr-flash-badge-widget/prototype.js"></script>';
+  echo '<script type="text/javascript" src="' . get_settings('siteurl') . '/wp-content/plugins/flickr-flash-badge-widget/flickr-badge.js"></script>';
   ?>
   <script type="text/javascript">
     <?php
