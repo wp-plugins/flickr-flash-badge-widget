@@ -25,7 +25,7 @@ Flickr Flash Badge Widget places a standard Flickr flash badge in your sidebar t
 
 You can go to Big Huge Lab's Flickr DNA page (http://bighugelabs.com/flickr/dna.php) and enter your Flickr username and hit 'Apply'. Your @N00 Flickr ID will appear on the subsequent page.
 
-== magisterLudi ==
+== Why was this hard? ==
 
 Flickr has a magic variable called `magisterLudi` that changes every 24 hours. When you use their default method with the iframe, the content of the iframe contains the current value of the magisterLudi. This prevents you from just pasting the `<object>` tag to run the flash file on their server and bypassing their iframe. (It will work, but not for more than 24 hours.)
 
