@@ -12,7 +12,7 @@ Places a Flickr flash badge in your sidebar as a widget and allows for enhanced 
 
 Flickr Flash Badge Widget places a standard Flickr flash badge in your sidebar to display your photos from Flickr.  Note that the flash object comes from Flickr.com and is not hosted from your server.  Your server just communicates with Flickr to get a special code, `magisterLudi`, which changes every 24 hours, and then embeds the flash badge from Flickr into your page.
 
-If you like this plugin, please log in and rate it in the <a href="http://wordpress.org/extend/plugins/flickr-flash-badge-widget/">Wordpress Plugin Directory</a>..
+If you like this plugin, please log in and rate it in the <a href="http://wordpress.org/extend/plugins/flickr-flash-badge-widget/">Wordpress Plugin Directory</a>.
 
 == Installation ==
 
@@ -29,7 +29,7 @@ You can go to <a href="http://bighugelabs.com/flickr/dna.php">Big Huge Lab's Fli
 
 == Why was this hard? ==
 
-Flickr has a magic variable called `magisterLudi` that changes every 24 hours. When you use their default method with the iframe, the content of the iframe contains the current value of the magisterLudi. This prevents you from just pasting the `<object>` tag to run the flash file on their server and bypassing their iframe. (It will work, but not for more than 24 hours.)
+Flickr has a magic variable called `magisterLudi` (which is apparently a <a href="http://en.wikipedia.org/wiki/The_Glass_Bead_Game">literary reference</a>) that changes every 24 hours. When you use their default method with the iframe, the content of the iframe contains the current value of the magisterLudi. This prevents you from just pasting the `<object>` tag to run the flash file on their server and bypassing their iframe. (It will work, but not for more than 24 hours.)
 
 To solve this problem, this plugin goes to fetch the contents of the iframe from Flickr, parses it to get the current magisterLudi value, and uses that to display the flash object directly on your page, thereby avoiding the iframe and bypassing their mechanism intended to force use of their iframe.
 
