@@ -29,7 +29,7 @@ You can go to <a href="http://bighugelabs.com/flickr/dna.php">Big Huge Lab's Fli
 
 == Why was this hard? ==
 
-Flickr has a magic variable called `magisterLudi` that changes every 24 hours. When you use their default method with the iframe, the content of the iframe contains the current value of the magisterLudi. This prevents you from just pasting the `<object>` tag to run the flash file on their server and bypassing their iframe. (It will work, but not for more than 24 hours.)
+Flickr has a magic variable called `magisterLudi` (which is apparently a <a href="http://en.wikipedia.org/wiki/The_Glass_Bead_Game">literary reference</a>) that changes every 24 hours. When you use their default method with the iframe, the content of the iframe contains the current value of the magisterLudi. This prevents you from just pasting the `<object>` tag to run the flash file on their server and bypassing their iframe. (It will work, but not for more than 24 hours.)
 
 To solve this problem, this plugin goes to fetch the contents of the iframe from Flickr, parses it to get the current magisterLudi value, and uses that to display the flash object directly on your page, thereby avoiding the iframe and bypassing their mechanism intended to force use of their iframe.
 
