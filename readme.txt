@@ -23,7 +23,7 @@ Flickr Flash Badge Widget places a standard Flickr flash badge in your sidebar t
 
 = How can I find my @N00 Flickr ID? =
 
-You can go to Big Huge Lab's Flickr DNA page (http://bighugelabs.com/flickr/dna.php) and enter your Flickr username and hit 'Apply'. Your @N00 Flickr ID will appear on the subsequent page.
+You can go to <a href="http://bighugelabs.com/flickr/dna.php">Big Huge Lab's Flickr DNA page</a> and enter your Flickr username and hit 'Apply'. Your @N00 Flickr ID will appear on the subsequent page.
 
 == Why was this hard? ==
 
