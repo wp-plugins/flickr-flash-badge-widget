@@ -133,12 +133,11 @@ function flickr_badge_widget_init() {
 }
 
 function output_fbw($fbw_flickr_id,$fbw_tags,$fbw_rows,$fbw_cols,$fbw_size,$fbw_transition,$magisterLudi) {
-  echo '<script type="text/javascript" src="' . get_settings('siteurl') . '/wp-content/plugins/flickr-flash-badge-widget/prototype.js"></script>';
   echo '<script type="text/javascript" src="' . get_settings('siteurl') . '/wp-content/plugins/flickr-flash-badge-widget/flickr-badge.js"></script>';
   ?>
   <script type="text/javascript">
     <?php
-      echo "new FlickrBadge({userId:'".$fbw_flickr_id."',rows:$fbw_rows,cols:$fbw_cols,size:$fbw_size,transition:'".($fbw_transition=='BTS' ? "bigThenSmall" : "fade")."',tags:'".$fbw_tags."',magisterLudi:'".$magisterLudi."'});";
+      echo "flickrBadge({userId:'".$fbw_flickr_id."',rows:$fbw_rows,cols:$fbw_cols,size:$fbw_size,transition:'".($fbw_transition=='BTS' ? "bigThenSmall" : "fade")."',tags:'".$fbw_tags."',magisterLudi:'".$magisterLudi."'});";
     ?>
   </script>
   <?php
