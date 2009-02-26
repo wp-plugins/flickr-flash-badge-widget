@@ -1,6 +1,6 @@
 === Flickr Flash Badge Widget ===
 Contributors: erikrasmussen
-Donate link: http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/
+Donate link: http://www.erik-rasmussen.com/blog/donate/
 Tags: flickr, badge, widget, sidebar, flash, photos, media
 Requires at least: 2.0.2
 Tested up to: 2.7.1
