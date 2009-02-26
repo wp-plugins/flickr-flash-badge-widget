@@ -3,7 +3,7 @@
 Plugin Name: Flickr Badge Widget
 Description: Display your Flickr photos with the Flickr Badge
 Author: Erik Rasmussen
-Version: 1.1
+Version: 1.2
 Author URI: http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/
 
 Copyright 2006  Erik Rasmussen (email : rasmussenerik@gmail.com)
