@@ -27,6 +27,10 @@ If you like this plugin, please log in and rate it in the <a href="http://wordpr
 
 You can go to <a href="http://bighugelabs.com/flickr/dna.php">Big Huge Lab's Flickr DNA page</a> and enter your Flickr username and hit 'Apply'. Your @N00 Flickr ID will appear on the subsequent page.
 
+= Why does it only show my most recent photos? How can I get it to show more photos? =
+
+This is a limitation in Flickr's flash badge.  All this plugin does is allow you to embed Flickr's flash badge directly into your page without the normally required iframe.  The fact that Flickr's flash badge only selects the recent photos is beyond this plugin's control.  Sorry...
+
 == Why was this hard? ==
 
 Flickr has a magic variable called `magisterLudi` that changes every 24 hours. When you use their default method with the iframe, the content of the iframe contains the current value of the magisterLudi. This prevents you from just pasting the `<object>` tag to run the flash file on their server and bypassing their iframe. (It will work, but not for more than 24 hours.)
