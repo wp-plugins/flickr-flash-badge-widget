@@ -3,8 +3,8 @@
 Plugin Name: Flickr Badge Widget
 Description: Display your Flickr photos with the Flickr Badge
 Author: Erik Rasmussen
-Version: 1.3
-Author URI: http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/?src=ffbw
+Version: 1.4
+Author URI: http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/?utm_source=admin&utm_medium=plugin&utm_campaign=Flickr%2BFlash%20Badge%20Widget
 
 Copyright 2006  Erik Rasmussen (email : rasmussenerik@gmail.com)
 
@@ -59,7 +59,7 @@ function flickr_badge_widget_init() {
 		$url_parts = parse_url(get_bloginfo('home'));
 		echo '<div style="margin-top:5px;margin-bottom:5px;text-align:left;"><!-- Author: Erik Rasmussen http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/ -->';
 		output_fbw($fbw_flickr_id,$fbw_tags,$fbw_rows,$fbw_cols,$fbw_size,$fbw_transition,$magisterLudi);
-		echo '<br/><small>By <a href="http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/?src=ffbw">Erik Rasmussen</a></small></div>';
+		echo '<br/><small>By <a href="http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/?utm_source=widget&utm_medium=plugin&utm_campaign=Flickr%2BFlash%20Badge%20Widget">Erik Rasmussen</a></small></div>';
 		echo $after_widget;
 	}
 
