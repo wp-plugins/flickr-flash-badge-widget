@@ -3,8 +3,8 @@
 Plugin Name: Flickr Badge Widget
 Description: Display your Flickr photos with the Flickr Badge
 Author: Erik Rasmussen
-Version: 1.3
-Author URI: http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/?src=ffbw
+Version: 1.5
+Author URI: http://erikras.com/2006/09/14/flash-flickr-badge-widget-for-wordpress/?utm_source=admin&utm_medium=plugin&utm_campaign=Flickr%2BFlash%20Badge%20Widget
 
 Copyright 2006  Erik Rasmussen (email : rasmussenerik@gmail.com)
 
@@ -57,9 +57,9 @@ function flickr_badge_widget_init() {
 
 		echo $before_widget . $before_title . $fbw_title . $after_title;
 		$url_parts = parse_url(get_bloginfo('home'));
-		echo '<div style="margin-top:5px;margin-bottom:5px;text-align:left;"><!-- Author: Erik Rasmussen http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/ -->';
+		echo '<div style="margin-top:5px;margin-bottom:5px;text-align:left;"><!-- Author: Erik Rasmussen http://erikras.com/2006/09/14/flash-flickr-badge-widget-for-wordpress/ -->';
 		output_fbw($fbw_flickr_id,$fbw_tags,$fbw_rows,$fbw_cols,$fbw_size,$fbw_transition,$magisterLudi);
-		echo '<br/><small>By <a href="http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/?src=ffbw">Erik Rasmussen</a></small></div>';
+		echo '<br/><small>By <a href="http://erikras.com/2006/09/14/flash-flickr-badge-widget-for-wordpress/?utm_source=widget&utm_medium=plugin&utm_campaign=Flickr%2BFlash%20Badge%20Widget">Erik Rasmussen</a></small></div>';
 		echo $after_widget;
 	}
 
@@ -125,7 +125,7 @@ function flickr_badge_widget_init() {
 <div class="fbw-row"><label for="fbw-size">Size of thumbnail squares:</label> <select id="fbw_size" name="fbw_size" value="<?php echo $size; ?>"><?php for ( $i = 30; $i <= 60; ++$i ) echo "<option value='$i' ".($size==$i ? "selected='selected'" : '').">$i</option>"; ?></select></div>
 <div class="fbw-row"><label for="fbw-transition">Transition:</label> <select id="fbw_transition" name="fbw_transition" value="<?php echo $transition; ?>"><?php echo "<option value='BTS' ".($transition=='BTS' ? "selected='selected'" : '').">Big Then Small</option><option value='FAD' ".($transition=='FAD' ? "selected='selected'" : '').">Fade</option>"; ?></select></div><?php
 		echo '<input type="hidden" id="fbw-submit" name="fbw-submit" value="1" />';
-		echo '<div class="fbw-row" style="text-align:center;padding-top:15px;">*Your Flickr ID should be the value in your URL when you are viewing your Flickr photos.  (e.g. 23585397@N00)<br/><br/>By <a href="http://www.erik-rasmussen.com/blog/2006/09/14/flash-flickr-badge-widget-for-wordpress/">Erik Rasmussen</a></div>';
+		echo '<div class="fbw-row" style="text-align:center;padding-top:15px;">*Your Flickr ID should be the value in your URL when you are viewing your Flickr photos.  (e.g. 23585397@N00)<br/><br/>By <a href="http://erikras.com/2006/09/14/flash-flickr-badge-widget-for-wordpress/">Erik Rasmussen</a></div>';
 	}
 	
 	register_sidebar_widget('Flickr Badge', 'flickr_badge_widget');

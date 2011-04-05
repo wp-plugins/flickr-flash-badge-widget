@@ -1,10 +1,10 @@
 === Flickr Flash Badge Widget ===
 Contributors: erikrasmussen
-Donate link: http://www.erik-rasmussen.com/blog/donate/
+Donate link: http://erikras.com/donate/
 Tags: flickr, badge, widget, sidebar, flash, photos, media
 Requires at least: 2.0.2
-Tested up to: 2.8.2
-Stable tag: 1.3
+Tested up to: 2.9.2
+Stable tag: 1.5
 
 Places a Flickr flash badge in your sidebar as a widget and allows for enhanced size, tag, and transition control.
 
@@ -12,7 +12,7 @@ Places a Flickr flash badge in your sidebar as a widget and allows for enhanced 
 
 Flickr Flash Badge Widget places a standard Flickr flash badge in your sidebar to display your photos from Flickr.  Note that the flash object comes from Flickr.com and is not hosted from your server.  Your server just communicates with Flickr to get a special code, `magisterLudi`, which changes every 24 hours, and then embeds the flash badge from Flickr into your page.
 
-If you like this plugin, please log in and rate it in the <a href="http://wordpress.org/extend/plugins/flickr-flash-badge-widget/">Wordpress Plugin Directory</a>.
+If you like this plugin, please log in and rate it in the <a href="http://wordpress.org/extend/plugins/flickr-flash-badge-widget/">Wordpress Plugin Directory</a>, or "like" it <a href="http://www.facebook.com/pages/Flash-Flickr-Badge-Widget-for-WordPress/108511729193918">on Facebook</a>.
 
 == Installation ==
 
