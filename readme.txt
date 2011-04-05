@@ -1,10 +1,10 @@
 === Flickr Flash Badge Widget ===
 Contributors: erikrasmussen
-Donate link: http://www.erik-rasmussen.com/blog/donate/
+Donate link: http://erikras.com/donate/
 Tags: flickr, badge, widget, sidebar, flash, photos, media
 Requires at least: 2.0.2
 Tested up to: 2.9.2
-Stable tag: 1.4
+Stable tag: 1.5
 
 Places a Flickr flash badge in your sidebar as a widget and allows for enhanced size, tag, and transition control.
 
